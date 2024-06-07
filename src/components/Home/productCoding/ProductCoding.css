@@ -1,0 +1,39 @@
+.product-coding{
+    width: 600px;
+    margin-top: 3rem;
+}
+.green{
+    background-color: greenyellow;
+}
+.product-coding tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.product-coding  td{
+    display: flex;
+    align-items: center;
+}
+.product{
+    display: flex;
+    gap: 5rem;
+}
+.table{
+    flex: 0.7;
+    margin-top: 10rem;
+
+}
+.table tr{
+    text-align: center;
+    vertical-align: center;
+}
+
+.table td, .table th {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+.table thead td:first-child,
+.table tbody tr:first-child td:first-child {
+  width: 300px; /* adjust as needed */
+}

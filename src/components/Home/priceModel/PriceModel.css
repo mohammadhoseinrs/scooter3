@@ -1,0 +1,24 @@
+/* PriceModel.css */
+
+.price-model-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .price-model-table th, .price-model-table td {
+    border: 1px solid black;
+    padding: 10px;
+    height: 15px;
+  }
+  
+  .price-model-table tr td:first-child {
+    width: 70%; /* adjust this value as needed */
+  }
+
+  .question_mark {
+    font-size: 15px;
+    background-color: #77aee9;
+    cursor: pointer;
+  }

@@ -1,0 +1,42 @@
+.bom_show{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.bom{
+    flex: 1;
+}
+.production_cycle{
+    flex: 0.6;
+}
+.bom_table{
+    border: 1px solid black; /* adjust as needed */
+}
+
+.bom_table td , .bom_table th {
+    border: 1px solid black; /* adjust as needed */
+    text-align: center;
+    vertical-align: middle;
+  }
+.level0{
+    background-color: aqua;
+}
+.level1{
+    background-color: yellowgreen;
+}
+.level2{
+    background-color: lightgrey;
+}
+.production_cycle{
+}
+.production_cycle_table thead th{
+    border: 1px solid black; /* adjust as needed */
+    text-align: center;
+    vertical-align: middle;
+}
+.production_cycle_table tr td{
+    border: 1px solid black; /* adjust as needed */
+    text-align: center;
+    vertical-align: middle;
+}
+  
